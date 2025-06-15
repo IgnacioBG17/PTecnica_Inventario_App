@@ -48,26 +48,29 @@ InventarioApp/
 ## ▶️ Instrucciones para correr el proyecto
 
 ### Backend
-
-1. Restaurar paquetes:
+1. Ingresar a la ruta
+ ```bash
+   cd inventarioApi
+   ```
+2. Restaurar paquetes:
 
    ```bash
    dotnet restore
    ```
 
-2. Crear base de datos:
+3. Crear base de datos:
 
    ```bash
    dotnet ef database update
    ```
 
-3. Ejecutar API:
+4. Ejecutar API:
 
    ```bash
    dotnet run
    ```
 
-4. Acceder a Swagger:
+5. Acceder a Swagger:
 
    ```
    https://localhost:<puerto>/swagger
